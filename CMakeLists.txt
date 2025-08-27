@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 
 find_package(Drogon REQUIRED)
 
+include_directories(.)
+
 add_executable(ModuWeb main.cpp)
 
 file(GLOB_RECURSE SOURCES
